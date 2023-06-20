@@ -1,0 +1,105 @@
+.grass {
+	position: relative;
+	width: 1670px;
+	height: 950px;
+	background-image: url("../imgs/n1.png");
+	background-color: red;
+	background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    bottom: 200px;	
+}
+.mshobeli1 {
+     
+}
+.mshobeli2 {
+
+}
+.road {
+	background-image: url("../imgs/n2.jpg");
+	position: relative;
+	width: 1670px;
+	height: 150px;
+	margin-top: 200px;
+	top: 25%;
+}
+.car1 {
+	position: absolute;
+	width: 100px;
+	height: 90px;
+    left: 90%;
+    animation: car1 25s infinite;
+    transition-timing-function: ease;
+    animation-delay: 1s;
+}
+@keyframes car1 {
+	0% {left: 90%;}
+	100% {left: 0%}
+}
+.car2 {
+	position: absolute;
+	width: 100px;
+	height: 90px;
+	top: 50%;
+    left: 90%;
+    transform: rotate(270deg);
+    transition-timing-function: linear;
+    animation-delay: 2s;
+    animation:car2 30s infinite ;
+}
+
+@keyframes car2 {
+	0% {left: 90%;}
+	100% {left: 0%}
+}
+.car3 {
+	position: absolute;
+	width: 100px;
+	height: 90px;
+	top: 50%;
+    left: 0%;
+    transform: rotate(90deg);
+    transition-timing-function: ease-in;
+    animation-delay: 3s;
+    animation: car3 10s infinite;
+}
+@keyframes car3 {
+	0% {left: 0%}
+	100% {left: 90%}
+}
+.car4 {
+	position: absolute;
+	width: 100px;
+	height: 90px;
+    left: 0%;
+    transform: rotate(90deg);
+    transition-timing-function: linear;
+    animation-delay: 3s;
+    animation: car3 20s infinite;
+}
+.bird {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: 8%;
+    z-index: 70;
+    animation: bird 40s infinite;
+} 
+@keyframes bird {
+	0% {left: 0%;top: 0%}
+	100% {left: 70%;top: 50%}
+}
+.plane { 
+	position:absolute ;
+
+}
+ 
+@keyframes car4 {
+	0% {left: 0%}
+	100% {left: 90%
+}
+
+
+
+
+
